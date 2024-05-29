@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8e9c4;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 1px solid #fbdd90;
+  background-color: #fbdd90;
+  height: 5em;
+  width: 12em;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #8c4b1f;
+  font-weight: bold;
+}
+
+#beeLogo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.bestSelling h1 {
+  color: #8c4b1f;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.latestNews h2 {
+  color: #8c4b1f;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.productGrid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.productItem {
+  background-color: #f8e9c4;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.productItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productItem p {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  color: #8c4b1f;
+}
+
+.productItem span {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.productItem button {
+  background-color: #fbdd90;
+  border: none;
+  width: 13em;
+  padding: 10px 20px;
+  border-radius: 2em;
+  cursor: pointer;
+  color: #8c4b1f;
+  font-weight: bold;
+}
+
+.productItem button:hover {
+  background-color: #e6d5a3;
+}
+
+.latestNews {
+  margin-top: 40px;
+}
+
+.newsItem {
+  display: flex;
+  gap: 20px;
+  background-color: #f8e9c4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.newsItem img {
+  width: 30em;
+  height: fit-content;
+  border-radius: 8px;
+}
+
+.newsItem h3 {
+  color: #8c4b1f;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.newsItem p {
+  color: #8c4b1f;
+}
+
+.newsItem div {
+  flex: 1;
+}
