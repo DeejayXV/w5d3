@@ -79,8 +79,8 @@ ul li a {
 
 .productItem {
   background-color: #f8e9c4;
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: 2em;
+  padding: 0 0 20px;
   text-align: center;
   flex: 1 1 200px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -89,7 +89,8 @@ ul li a {
 .productItem img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
 }
 
 .productItem p {
