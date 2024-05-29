@@ -13,6 +13,10 @@ body {
   padding: 20px;
 }
 
+.sidebar li:hover {
+  background-color: #e6d5a3;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -31,6 +35,11 @@ ul li {
   cursor: pointer;
 }
 
+#shop {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 ul li a {
   text-decoration: none;
   color: #8c4b1f;
@@ -40,7 +49,7 @@ ul li a {
 #beeLogo img {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .mainContent {
